@@ -2,10 +2,18 @@
  * @Author       : ymq
  * @Date         : 2022-08-25 16:49:25
  * @LastEditors  : Do not edit
- * @LastEditTime : 2022-08-25 17:38:28
+ * @LastEditTime : 2022-08-25 18:50:39
  * @Description  : Do not edit 
  * @FilePath     : \koa-compose-analysis\READMEextend.md
 -->
+## koa 源码新的体会
+
+参见: my-compose.js 文件
+
+核心就是 koa-compose 模块
+在有就是co 模块: 
+作用就是---->把generator转成promise , 这也就是koa1和koa2的一个区别之一
+
 ## 设计模式 --- 责任链模式
 
 顾名思义，责任链模式（Chain of Responsibility Pattern）为请求创建了一个接收者对象的链。这种模式给予请求的类型，对请求的发送者和接收者进行解耦。这种类型的设计模式属于行为型模式。
