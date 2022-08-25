@@ -2,7 +2,7 @@
  * @Author       : ymq
  * @Date         : 2022-08-25 16:49:25
  * @LastEditors  : Do not edit
- * @LastEditTime : 2022-08-25 18:50:39
+ * @LastEditTime : 2022-08-25 19:03:53
  * @Description  : Do not edit 
  * @FilePath     : \koa-compose-analysis\READMEextend.md
 -->
@@ -10,8 +10,23 @@
 
 参见: my-compose.js 文件
 
-核心就是 koa-compose 模块
-在有就是co 模块: 
+1. 核心就是 koa-compose 模块
+实现就是 通过 递归的方式，执行 next 方法。
+PS: 联想到 list的数据结构  ---->  通过for循环， 条件情况 -----> 通过 if 判断
+PS: Tree数据结构 ---->  通过 **递归** 来操作，
+PS: 还有哪些数据结构的:
+栈(Stack): 
+堆(Heap):
+
+数组(Array):
+链表(Linked list): 1. 单向链表 2. 双向链表 3. 循环链表
+队列(Queue):
+散列表(Hash):
+
+树(Tree): 
+图(Graph):
+
+2. co 模块: 
 作用就是---->把generator转成promise , 这也就是koa1和koa2的一个区别之一
 
 ## 设计模式 --- 责任链模式
