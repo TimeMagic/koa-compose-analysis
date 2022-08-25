@@ -19,7 +19,8 @@
   },
   "scripts": {
     "eslint": "standard --fix .",
-    "test": "jest"
+    "test": "jest",
+    "com": "node my-compose.js"
   },
   "jest": {
     "testEnvironment": "node"
