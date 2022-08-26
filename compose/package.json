@@ -20,7 +20,8 @@
   "scripts": {
     "eslint": "standard --fix .",
     "test": "jest",
-    "com": "node my-compose.js"
+    "com": "node my-compose.js",
+    "chain": "node chain.js"
   },
   "jest": {
     "testEnvironment": "node"
